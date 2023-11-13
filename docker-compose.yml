@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+ app:
+  build: .
+  volumes:
+   - .:/djangos
+  ports:
+   - 8000:8000
+  image: django_docker2
+  container_name: django_welcome2
+  command: python manage.py runserver 0.0.0.0:8000
