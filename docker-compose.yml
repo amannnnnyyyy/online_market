@@ -6,6 +6,6 @@ services:
    - .:/djangos
   ports:
    - 8000:8000
-  image: django_docker2
+  image: django_docker3
   container_name: django_welcome2
   command: python manage.py runserver 0.0.0.0:8000
