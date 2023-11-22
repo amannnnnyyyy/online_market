@@ -4,10 +4,4 @@ Django==3.2.23
 pytz==2023.3.post1
 sqlparse==0.4.4
 typing-extensions==4.7.1
-=======
-asgiref==3.7.2
-Django==3.2.23
-pytz==2023.3.post1
-sqlparse==0.4.4
-typing-extensions==4.7.1
->>>>>>> 11c58f3589755949e3a4ced2a390829c91352d5d
+
